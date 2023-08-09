@@ -1,0 +1,33 @@
+/*!
+ * FilePondPluginmediaPreview 1.0.0
+ * Licensed under MIT, https://opensource.org/licenses/MIT/
+ * Please visit undefined for details.
+ */
+
+/* eslint-disable */
+.filepond--custom-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: bottom;
+  margin-right: 0.5em;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.filepond--custom-icon:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.filepond--magnify-icon:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.filepond--file-info-main-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
